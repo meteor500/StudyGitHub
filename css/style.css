@@ -1,0 +1,78 @@
+/*
+ *   Copyright (c) 2024 
+ *   All rights reserved.
+ */
+
+ * {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px 20px 0 20px;
+    max-width: 1200px;
+    display: flex;
+    border: 4px double #000;
+    background: linear-gradient(to right, rgba(239,158,115,1) 0%,rgba(107,239,67,1) 25%,rgba(72,69,239,1) 65%,rgba(247,239,0,1) 100%);
+}
+h4 {
+    width: 200px;
+    border-bottom: 2px solid black;
+}
+.links {
+    display: flex;
+    list-style: none;
+}
+
+img {
+    width: 200px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+.container {
+    display: flex;
+}
+.listen {
+    margin-left: 40px;
+}
+.listen1 {
+    border-right: 2px solid blue;
+    border-bottom: 2px solid blue;
+    border-left: 2px solid blue;
+    padding: 0 20px 20px 20px;
+    border-radius: 0 0 10px 10px;
+    transition: all 1s;
+}
+.listen1 li {
+    padding-left: 20px;
+}
+.listen2 {
+    margin-left: 40px;
+    border-bottom: 2px solid blue;
+    border-left: 2px solid blue;
+    border-right: 2px solid blue;
+    border-radius: 0 0 10px 10px;
+    transition: all 1s;
+}
+.listen2 li {
+    padding-left: 20px;
+    list-style: none;
+}
+@media (max-width: 1000px) {
+    .listen1 {
+        background: linear-gradient(to right, rgba(171,234,112,1) 0%,rgba(66,171,237,1) 100%);
+        padding: 80px;
+        /* background-image: url(img/Картинка.jpeg);
+        background-color: transparent; */
+    }
+    .listen2 {
+        background: linear-gradient(to right, rgba(113,237,237,1) 0%,rgba(211,247,69,1) 100%);
+        padding: 80px;
+        /* background-image: url(img/Картинка.jpeg);
+        background-color: transparent; */
+    }
+    /* body {
+        background-image: url(img/Картинка.jpeg);
+        background-color: transparent;
+    } */
+}
