@@ -12,8 +12,22 @@ header {
     padding: 20px 20px 0 20px;
     max-width: 1200px;
     display: flex;
-    border: 4px double #000;
     background: linear-gradient(to right, rgba(239,158,115,1) 0%,rgba(107,239,67,1) 25%,rgba(72,69,239,1) 65%,rgba(247,239,0,1) 100%);
+    margin: 20px 0 0 10px;
+    border-radius: 10px 10px 0 0;
+}
+section {
+    padding: 20px 20px 0 20px;
+    max-width: 1200px;
+    background: linear-gradient(to right, rgba(239,158,115,1) 0%,rgba(107,239,67,1) 25%,rgba(72,69,239,1) 65%,rgba(247,239,0,1) 100%);
+    margin-left: 10px;
+}
+footer {
+    padding: 20px 20px 0 20px;
+    max-width: 1200px;
+    background: linear-gradient(to right, rgba(239,158,115,1) 0%,rgba(107,239,67,1) 25%,rgba(72,69,239,1) 65%,rgba(247,239,0,1) 100%);
+    margin-left: 10px;
+    border-radius: 0 0 10px 10px;
 }
 h4 {
     width: 200px;
@@ -23,7 +37,10 @@ h4 {
     display: flex;
     list-style: none;
 }
-
+.picture {
+    width: 270px;
+    height: 170px;
+}
 img {
     width: 200px;
     border: 2px solid red;
@@ -58,6 +75,7 @@ img {
     padding-left: 20px;
     list-style: none;
 }
+
 @media (max-width: 1000px) {
     .listen1 {
         background: linear-gradient(to right, rgba(171,234,112,1) 0%,rgba(66,171,237,1) 100%);
